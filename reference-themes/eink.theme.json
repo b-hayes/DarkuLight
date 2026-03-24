@@ -1,0 +1,32 @@
+{
+  "name": "Eink-theme",
+  "author": "Daniel Kao",
+  "dark": false,
+  "editorScheme": "/Eink.xml",
+  "colors": {
+    "primaryBlack": "#000000",
+    "primaryWhite": "#FFFFFF"
+  },
+  "ui": {
+    "Panel.background": "primaryWhite",
+    "*": {
+      "background": "primaryWhite",
+      "borderColor": "primaryBlack"
+    },
+    "Window.border": "4,4,4,4,000000",
+    "ToolWindow.background": "primaryWhite",
+    "ToolWindow.Button.hoverBackground": "primaryWhite",
+    "ToolWindow.Button.selectedBackground": "primaryBlack",
+    "ToolWindow.Button.selectedForeground": "primaryWhite",
+    "ToolWindow.Header.background": "primaryWhite",
+    "ToolWindow.Header.inactiveBackground": "primaryWhite",
+    "ToolWindow.HeaderTab.hoverBackground": "primaryWhite",
+    "ToolWindow.HeaderTab.hoverInactiveBackground": "primaryWhite"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Green": "primaryBlack",
+      "#DB5860": "#000000"
+    }
+  }
+}
